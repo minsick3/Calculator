@@ -10,7 +10,7 @@ pipeline {
         stage("Package"){
             steps{
                 sh "chmod 777 mvnw"
-                sh "./mvmn pacakage"
+                sh "./mvnw pacakage"
             }
         }
 
